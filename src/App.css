@@ -125,7 +125,8 @@
     font-family: "DM Serif Display";
   }
   section,
-  header {
+  header,
+  footer {
     @apply rounded-xl bg-card;
   }
 }
