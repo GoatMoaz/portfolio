@@ -23,21 +23,27 @@ export default function Footer({ md }: { md: boolean }) {
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <Linkedin className="cursor-pointer size-6 sm:size-10" />
+        <a href="https://www.linkedin.com/in/goat-moaz/" target="_blank">
+          <Linkedin className="cursor-pointer size-6 sm:size-10" />
+        </a>
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.2, rotate: -10 }}
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <Github className="cursor-pointer size-6 sm:size-10" />
+        <a href="https://github.com/GoatMoaz" target="_blank">
+          <Github className="cursor-pointer size-6 sm:size-10" />
+        </a>
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.2, rotate: 10 }}
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <Mail className="cursor-pointer size-6 sm:size-10" />
+        <a href="mailto:moaz.ayman.mahmoud@gmail.com" target="_blank">
+          <Mail className="cursor-pointer size-6 sm:size-10" />
+        </a>
       </motion.div>
     </motion.footer>
   );
